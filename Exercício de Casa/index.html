@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <title>Biblioteca</title>
+</head>
+
+<body>  
+    <main>
+        <section class="section-form">
+            <img class="img-titulo" src="./image/titulo.png">
+            <form class="form">
+                <label class="label" for="titulo">Título:</label>
+                <input class="input" type="text" id="titulo" name="titulo">
+                <label class="label" for="autor">Autor:</label>
+                <input class="input" type="text" id="autor" name="autor">
+                <label class="label" for="isbn">ISBN:</label>
+                <input class="input" type="number" id="isbn" name="isbn">
+                <label class="label" for="data">Data de Publicação:</label>
+                <input class="input" type="date" id="data" name="data">
+                <label class="label" for="paginas">Páginas:</label>
+                <input class="input" type="number" id="paginas" name="paginas">
+                <input class="adicionar" type="submit" id="adicionar" value="Adicionar Livro" name="adcionar">
+        </section>
+        <section class="section-list">
+            <table id="table">
+                <tr class="header-table">
+                    <th class="header-titulo">Título</th>
+                    <th class="header-autor">Autor</th>
+                    <th class="header-isbn">ISBN</th>
+                    <th class="header-publicacao">Data de Publicação</th>
+                    <th class="header-pagina">Páginas</th>
+                    <th></th>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

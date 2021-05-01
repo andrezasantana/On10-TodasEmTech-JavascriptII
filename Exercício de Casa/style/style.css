@@ -1,0 +1,91 @@
+/* GERAL */
+*{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* FORMULARIO */
+
+.section-form, .section-list{
+    background-color: #d3d3d3ff;
+    padding: 5%;
+}
+.img-titulo{
+    display: block;
+    margin: 0 auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    color: rgb(61, 61, 61);
+    margin-bottom: 4px;
+}
+.input{
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.adicionar{
+    background-color:#008cbaff;
+    color: white;
+    padding: 10px;
+}
+
+/* TABELA */
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.header-table th{
+    text-align: center;
+    border: 1px solid black;
+    background-color: gray;
+    color:white;
+    padding: 8px;
+}
+.header-titulo{
+    width: 26%;
+}
+.header-autor{
+    width: 24%;
+}
+.header-isbn{
+    width: 18%;
+}
+.header-publicacao{
+    width: 18%;
+}
+.header-pagina{
+    width: 12%;
+}
+td{
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+.deletar{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+.tooltiptext{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    right: 0;
+}
+.deletar:hover .tooltiptext{
+    visibility: visible;
+    background-color: #008cbaff;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 5px;
+}
